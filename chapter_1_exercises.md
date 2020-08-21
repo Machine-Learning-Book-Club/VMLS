@@ -26,4 +26,4 @@
 
 ## Exercise 4
 - 4a is `w = (d, d, d, d, d, d, d)` because the `w` vector is composed of 7 identical vectors `d`.
-- 4b is <a href="https://render.githubusercontent.com/render/math?math=w_{1:24}">
+- 4b is <img src="https://render.githubusercontent.com/render/math?math=w_{1:24}">
