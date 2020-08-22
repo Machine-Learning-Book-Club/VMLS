@@ -5,6 +5,7 @@
 - [zach_notes_chapter_1.pdf](./zach_notes_chapter_1.pdf) is a nice visual reference for chapter 1 vocabulary and concepts.
 - [chapter_1_exercises.md](./chapter_1_exercises.md) contains our collaborative solutions/discussion for the chapter exercises.
 - [ryan_chapter_1_notes.md](./ryan_chapter_1_notes.md) contains text reference notes and some examples.
+- [chapter_1_python_companion.ipynb](./chapter_1_python_companion.ipynb) is Python/numpy code that implements concepts in the chapter.
 
 ## Notation Conventions
 - The VMLS book uses the following notation conventions:
