@@ -7,6 +7,17 @@
 - [ryan_chapter_1_notes.md](./ryan_chapter_1_notes.md) contains text reference notes and some examples.
 - [chapter_1_python_companion.ipynb](./chapter_1_python_companion.ipynb) is Python/numpy code that implements concepts in the chapter.
 
+## Quick Start
+Want to play with these Python notebooks online without having to install anything?
+
+Open these notebooks in Collaboratory, [https://colab.research.google.com/github/Machine-Learning-Book-Club/VMLS](https://colab.research.google.com/github/Machine-Learning-Book-Club/VMLS)
+
+**Recommended**: open this repository in [Colaboratory](https://colab.research.google.com/github/Machine-Learning-Book-Club/VMLS):
+<a href="https://colab.research.google.com/github/Machine-Learning-Book-Club/VMLS"><img src="https://colab.research.google.com/img/colab_favicon.ico" width="90" /></a>
+
+**WARNING: Please be aware that these services provide temporary environments: anything you do will be deleted after a while, so make sure you download any data you care about.**
+
+
 ## Notation Conventions
 - The VMLS book uses the following notation conventions:
     - lower-case letters for vector variables.
@@ -34,7 +45,7 @@
 
 ## Now We Know (CAUTION)
 - Don't confuse math notation with programming syntax!
-- Our vector notation in math is `a = (1, 2, 3)` or `b = (4.2, 10, -11, 17.2)`.
+- Our vector notation in math is `a = (1, 2, 3)` or `b = (4.2, 10, -11, 17.2)`. This looks like tuples in  programming syntax, but ain't.
 - Vectors index from 1 and not zero (like many programming languages)
 - The math notation `(a, b)` means a _stacked vector_ of `a` and `b`. A _stacked vector_ means a one dimensional vector that is the elements of `a` followed by the elements of `b`. If `a = (1,2)` and `b = (3, 4)` then the notation `(a, b)` means the vector `(1, 2, 3, 4)`.
 - Two vectors are said to be equal if they are of the same size and and each of the corresponding entries is the same (at each index).
