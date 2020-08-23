@@ -10,9 +10,7 @@
 ## Quick Start
 Want to play with these Python notebooks online without having to install anything?
 
-Open these notebooks in Collaboratory, [https://colab.research.google.com/github/Machine-Learning-Book-Club/VMLS](https://colab.research.google.com/github/Machine-Learning-Book-Club/VMLS)
-
-**Recommended**: open this repository in [Colaboratory](https://colab.research.google.com/github/Machine-Learning-Book-Club/VMLS):
+**Recommended**: open this notebooks in [Colaboratory](https://colab.research.google.com/github/Machine-Learning-Book-Club/VMLS):
 <a href="https://colab.research.google.com/github/Machine-Learning-Book-Club/VMLS"><img src="https://colab.research.google.com/img/colab_favicon.ico" width="90" /></a>
 
 **WARNING: Please be aware that these services provide temporary environments: anything you do will be deleted after a while, so make sure you download any data you care about.**
