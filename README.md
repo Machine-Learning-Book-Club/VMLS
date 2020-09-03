@@ -1,10 +1,9 @@
 # Machine Learning Book Club reading of VMLS
-> It's a club, not a class!
 
 ## Contents
-- [zach_notes_chapter_1.pdf](./zach_notes_chapter_1.pdf) is a nice visual reference for chapter 1 vocabulary and concepts.
+- [zach_notes_chapter_1.pdf](./chapter_1_two_page_cheat_sheet.pdf) is a nice visual reference for chapter 1 vocabulary and concepts.
 - [chapter_1_exercises.md](./chapter_1_exercises.md) contains our collaborative solutions/discussion for the chapter exercises.
-- [ryan_chapter_1_notes.md](./ryan_chapter_1_notes.md) contains text reference notes and some examples.
+- [ryan_chapter_1_notes.ipynb](./chapter_1_notes.ipynb) contains text reference notes and some examples.
 - [chapter_1_python_companion.ipynb](./chapter_1_python_companion.ipynb) is Python/numpy code that implements concepts in the chapter.
 
 ## Quick Start
