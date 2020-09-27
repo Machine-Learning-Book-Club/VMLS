@@ -6,11 +6,12 @@ using InteractiveUtils
 
 # ╔═╡ f96d46f8-fc66-11ea-3668-9b5a98c69713
 md"""
-# Identifies
+# Identities
 """
 
 # ╔═╡ 12aa5cd2-fc67-11ea-11fb-55bc3127e940
 # is_commutative(a, b)
+
 
 # ╔═╡ e2618652-fdb2-11ea-30e9-2f5d20311f20
 # has_left_distributivity
@@ -68,17 +69,7 @@ has_homogeneity(avg, alpha, a)
 satisfies_superposition(avg, 2, 3, rand(3), [2, 2, 2])
 
 # ╔═╡ cb8853e0-fea0-11ea-1c36-117afc9259c5
-function phi(x)
-	if x == [1, 1, 0]
-		return -1
-	end	
-	if x == [-1, 1, 1]
-		return 0
-	end
-	if x == [1, -1, -1]
-		return 1
-	end
-end
+
 
 # ╔═╡ 2fb65dfa-fea1-11ea-0076-b52c2adeaafb
 phi([1, 1, 0])
