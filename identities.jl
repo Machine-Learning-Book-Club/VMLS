@@ -68,9 +68,6 @@ has_homogeneity(avg, alpha, a)
 # ╔═╡ 55cc0764-fea0-11ea-2865-17078f59deff
 satisfies_superposition(avg, 2, 3, rand(3), [2, 2, 2])
 
-# ╔═╡ cb8853e0-fea0-11ea-1c36-117afc9259c5
-
-
 # ╔═╡ 2fb65dfa-fea1-11ea-0076-b52c2adeaafb
 phi([1, 1, 0])
 
@@ -92,6 +89,5 @@ satisfies_superposition(avg, 3, 3, [1, 1, 1], ones(3))
 # ╠═7128847a-fe9f-11ea-0f97-ddaedd4fccd3
 # ╠═6e56a6e6-fe9f-11ea-0f30-0bf8a3d15879
 # ╠═55cc0764-fea0-11ea-2865-17078f59deff
-# ╠═cb8853e0-fea0-11ea-1c36-117afc9259c5
 # ╠═2fb65dfa-fea1-11ea-0076-b52c2adeaafb
 # ╠═1072e3da-fea1-11ea-23ef-bdc2efdc06dc

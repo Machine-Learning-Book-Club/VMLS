@@ -41,13 +41,39 @@ function norm_of_sum(x, y)
 end
 
 # ╔═╡ 46ab2534-0068-11eb-1cef-59c6b5b89b9a
-
+# Non-negative homogeneity
+function non_negative_homogeneity(scalar, vector)
+	lhs = norm(scalar * vector)
+	rhs = norm(scalar) * norm(vector)
+	return lhs ≈ rhs
+end
 
 # ╔═╡ abe56208-0067-11eb-17b8-5181cc034f12
+# Triangle Inequality
+
+function has_triangle_inequality(x, y)
+	lhs = norm(x + y)
+	rhs = norm(x) + norm(y)
+	return lhs <= rhs
+	
+end
+
+# ╔═╡ 643045b0-006f-11eb-24a5-53df1f585348
 
 
 # ╔═╡ c3f68f62-0066-11eb-3b51-5d6164eb4b4f
+# Definiteness
+function has_definiteness(x)
+	return norm(x) == 0 
 
+# ╔═╡ 8910d246-006f-11eb-03c9-e16efd46596b
+true and false
+
+# ╔═╡ 8be54434-006f-11eb-2bed-5958048ed481
+true && false
+
+# ╔═╡ aecc4678-006f-11eb-0a5b-6f0073e6913a
+and
 
 # ╔═╡ Cell order:
 # ╠═e84a40c6-0062-11eb-2dae-c763103dd036
@@ -60,4 +86,8 @@ end
 # ╠═f10126a6-0067-11eb-1dc0-5722ec2349c4
 # ╠═46ab2534-0068-11eb-1cef-59c6b5b89b9a
 # ╠═abe56208-0067-11eb-17b8-5181cc034f12
+# ╠═643045b0-006f-11eb-24a5-53df1f585348
 # ╠═c3f68f62-0066-11eb-3b51-5d6164eb4b4f
+# ╠═8910d246-006f-11eb-03c9-e16efd46596b
+# ╠═8be54434-006f-11eb-2bed-5958048ed481
+# ╠═aecc4678-006f-11eb-0a5b-6f0073e6913a
