@@ -40,6 +40,12 @@ rms([0, 1])
 # ╔═╡ ff92d61e-0db5-11eb-2218-df1d800def1d
 rms([0, 0, 0])
 
+# ╔═╡ 4f9b0206-0db8-11eb-00a3-a3fd6435898a
+rms([1, -1, 1, -1, 1, -1])
+
+# ╔═╡ 59929436-0db8-11eb-0c5d-a7da08824ad7
+rms([3, -3, 3])
+
 # ╔═╡ f10126a6-0067-11eb-1dc0-5722ec2349c4
 # # norm of a sum is inner-product FOIL, yo!
 
@@ -65,6 +71,17 @@ begin
 	
 	c == d == e == f
 end
+
+# ╔═╡ a5ea91ca-0db9-11eb-3c29-e9513d69b869
+sqrt(a'a + b'b)
+
+# ╔═╡ ca39448c-0db8-11eb-28ee-f7bee9402f47
+begin
+	g = [a; b]
+	
+	norm(g), norm([norm(a), norm(b)])
+end
+
 
 # ╔═╡ 46ab2534-0068-11eb-1cef-59c6b5b89b9a
 # Non-negative homogeneity
@@ -135,8 +152,12 @@ dist([0, 0], [1, 1])
 # ╠═a30b86f8-0067-11eb-328e-e1f4cae6dd78
 # ╠═fbae8af2-0db5-11eb-101f-b555c7cbe6cd
 # ╠═ff92d61e-0db5-11eb-2218-df1d800def1d
+# ╠═4f9b0206-0db8-11eb-00a3-a3fd6435898a
+# ╠═59929436-0db8-11eb-0c5d-a7da08824ad7
 # ╠═f10126a6-0067-11eb-1dc0-5722ec2349c4
 # ╠═95940c20-0db6-11eb-1d78-e11d3b173f51
+# ╠═a5ea91ca-0db9-11eb-3c29-e9513d69b869
+# ╠═ca39448c-0db8-11eb-28ee-f7bee9402f47
 # ╠═46ab2534-0068-11eb-1cef-59c6b5b89b9a
 # ╠═abe56208-0067-11eb-17b8-5181cc034f12
 # ╠═c3f68f62-0066-11eb-3b51-5d6164eb4b4f
