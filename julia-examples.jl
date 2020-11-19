@@ -39,11 +39,13 @@ sum_of_squares(x) = x'x
 
 # ╔═╡ ce91e486-2a04-11eb-31ce-456cbc7ed561
 md"""
-## Identity and Property Functions
+## Property Functions
 - commutative
 - associative
 - homogeneity
 - additivity
+- superposition
+- linearity
 """
 
 # ╔═╡ f558cc96-2a00-11eb-1330-5fddb8d08919
